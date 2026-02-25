@@ -12,9 +12,7 @@ var isValid = function (s) {
     //closing
     else {
       let top = stack.pop();
-      if (top !== map[char])
-        // '('
-        return false;
+      if (top !== map[char]) return false;
     }
   }
   return stack.length === 0;
