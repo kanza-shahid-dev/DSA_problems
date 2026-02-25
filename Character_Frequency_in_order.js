@@ -9,12 +9,13 @@ let s = "geeksforgeeks";
 
 const Frequencies = (s) => {
   let freq = new Map();
-  for (char of s) {
+  for (let char of s) {
     freq.set(char, (freq.get(char) || 0) + 1);
   }
   console.log(freq);
   // to make string
   let res = [];
+
   for (let [char, count] of freq) {
     res.push(char + count);
   }
