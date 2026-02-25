@@ -3,7 +3,7 @@
  * @return {number}
  */
 var maxSubArray = function (nums) {
-  //kadanes
+  //Kadane’s
   let currMax = nums[0];
   let max = nums[0];
 
