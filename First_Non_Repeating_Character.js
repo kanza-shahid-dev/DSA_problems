@@ -6,7 +6,7 @@ let s = "geeksforgeeks";
 
 const FirstNonRepeating = (s) => {
   let freq = new Map();
-  for (char of s) {
+  for (let char of s) {
     freq.set(char, (freq.get(char) || 0) + 1);
   }
   console.log(freq);
