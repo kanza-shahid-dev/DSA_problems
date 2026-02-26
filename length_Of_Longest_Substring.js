@@ -1,4 +1,7 @@
 var lengthOfLongestSubstring = function (s) {
+  //without repating characters = (hashmap/sets)
+  //Substring continuous = (sliding window technique)
+  //Longest = expand = variable size sliding window
   let longestStr = 0;
   let set = new Set();
   let left = 0;
