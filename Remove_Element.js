@@ -11,7 +11,7 @@ var removeElement = function (nums, val) {
 
   return left;
 };
-////////
+
 /********* Two Pointer Approach *********/
 var removeElement = function (nums, val) {
   let left = 0;
